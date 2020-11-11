@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.sliderArea {
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    border-radius: 25px;
+}
+
+.slider {
+    height: 190px;
+    width: 190px;
+    background-color: white;
+    top: 1px;
+    left: 1px;
+    transition: transform .300s ease-in-out;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.lightMode {
+    background-color: rgb(225, 225, 225);
+}
+
+.darkMode {
+    background-color: rgb(30, 30, 30);
+}
+
+.moved {
+    transform: translateX(200px);
+}

@@ -1,0 +1,146 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+}
+
+.moveMe {
+    height: 200px;
+    width: 200px;
+    transition: transform .800s ease;
+    position: absolute;
+}
+
+.puzzle1:nth-of-type(1) {
+    background-image: url("./img/img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle1:nth-of-type(2) {
+    background-image: url("./img/img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle1:nth-of-type(3) {
+    background-image: url("./img/img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle1:nth-of-type(4) {
+    background-image: url("./img/img4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle1:nth-of-type(5) {
+    background-image: url("./img/img5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle1:nth-of-type(6) {
+    background-image: url("./img/img6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle1:nth-of-type(7) {
+    background-image: url("./img/img7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle1:nth-of-type(8) {
+    background-image: url("./img/img8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tile:nth-last-of-type(odd) {
+    background-color: hotpink;
+}
+
+.wrapper .tile:nth-last-of-type(even) {
+    background-color: lightblue;
+}
+
+.sliderArea {
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    border-radius: 25px;
+}
+
+.slider {
+    height: 190px;
+    width: 190px;
+    background-color: white;
+    top: 1px;
+    left: 1px;
+    transition: transform .300s ease-in-out;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.moved {
+    transform: translateX(200px);
+}
+
+.puzzle2:nth-of-type(1) {
+    background-image: url("./img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle2:nth-of-type(2) {
+    background-image: url("./img/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle2:nth-of-type(3) {
+    background-image: url("./img/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle2:nth-of-type(4) {
+    background-image: url("./img/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle2:nth-of-type(5) {
+    background-image: url("./img/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle2:nth-of-type(6) {
+    background-image: url("./img/img6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle2:nth-of-type(7) {
+    background-image: url("./img/img7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puzzle2:nth-of-type(8) {
+    background-image: url("./img/img8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
